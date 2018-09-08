@@ -23,12 +23,7 @@
 #include <ostream>
 #include <istream>
 #include <cstdio>
-#ifdef ARDUINO
-#include <HardwareSerial.h>
-#include <serstream>
-#else
 #include <fstream>
-#endif
 
 namespace std{
 
