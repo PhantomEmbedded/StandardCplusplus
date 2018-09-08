@@ -33,6 +33,8 @@
 #include <fcntl.h>
 #include <errno.h>
 
+// the following values are stolen from: https://unix.superglobalmegacorp.com/Net2/newsrc/sys/fcntl.h.html
+
 #define F_GETFL 1
 #define F_SETFL 2
 #define F_SETFD 3
