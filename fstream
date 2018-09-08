@@ -33,6 +33,12 @@
 #include <fcntl.h>
 #include <errno.h>
 
+#define F_GETFL 1
+#define F_SETFL 2
+#define F_SETFD 3
+
+#define O_NONBLOCK 0x0004
+
 #ifdef __UCLIBCXX_HAS_WCHAR__
 #include <cwchar>
 #include <cwctype>
